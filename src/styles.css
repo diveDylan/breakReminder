@@ -1,0 +1,229 @@
+:root, body {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  width: 100vw;
+  height: 100vh;
+  color: #0f0f0f;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background-color: #f6f6f6;
+  margin: 0;
+  display: flex;
+  border-radius: 10px;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: 0.75s;
+}
+
+.logo.tauri:hover {
+  filter: drop-shadow(0 0 2em #24c8db);
+}
+
+
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: #535bf2;
+}
+
+h1 {
+  text-align: center;
+  font-size: 20px;
+}
+
+input,
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-size: 1em;
+  font-weight: 400;
+  font-family: inherit;
+  color: #0f0f0f;
+  background-color: #ffffff;
+  transition: border-color 0.25s;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+}
+label {
+  height: 20px;
+  margin-bottom: 10px;
+}
+.form-item {
+  padding: 0 20px;
+  display: flex;
+  margin-bottom: 10px;
+  flex-direction: column;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  color: #0f0f0f;
+  text-align: left;
+}
+
+.submit {
+  height: 30px;
+  font-size: 14px;
+  margin-top: 20px;
+  padding: 0 20px;
+}
+
+
+.form-item input  {
+  color: #000;
+  box-sizing: border-box;
+  width: 120px!important;
+  height: 28px!important;
+}
+.form-item div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+select {
+  box-sizing: border-box;
+  width: 60px;
+  margin-right: 10px;
+  font-size: 21px!important;
+}
+
+button {
+  cursor: pointer;
+}
+
+
+
+button:hover {
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+}
+button:active {
+  background-color: #44e0f1;
+  color: #fff
+}
+
+input,
+button {
+  outline: none;
+}
+button {
+  background-color: #24c8db;
+  color: #fff
+}
+#greet-input {
+  margin-right: 5px;
+  font-size: 12px;
+  height: 16px;
+}
+
+.work h1 {
+  font-size: 80px;
+  color: #333;
+  height: auto;
+  font-family: sans-serif;
+}
+.rest button, .work button {
+  font-size: 20px;
+  width: 120px;
+  color:gray;
+  font-family: sans-serif;
+  background-color:#f6f6f6;
+
+}
+.rest button {
+  background-color: transparent;
+  color: #fff;
+}
+.work button {
+  width: 120px;
+  height: 40px;
+  margin-top: 0px;
+  color: gray;
+  line-height: 40px;
+  padding: 0 20px;
+}
+h2 {
+  font-size: 20px;
+  color: #333;
+  height: auto;
+  font-family: sans-serif;
+  margin-bottom: 20px;
+}
+.rest, .work {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+  height: 100vh;
+}
+.work {
+  background-color: #fff!important;
+  border-radius: 10px;
+}
+.rest h1 {
+  font-size: 300px;
+  background-color: transparent;
+  color: #fff;
+  font-family: sans-serif;
+  margin-bottom: 30px;
+}
+.rest {
+  background-color: rgb(255,255,255,.8);
+  
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    color: #f6f6f6;
+    background-color: #2f2f2f;
+  }
+
+  a:hover {
+    color: #24c8db;
+  }
+
+  input,
+  button {
+    color: #ffffff;
+    background-color: #0f0f0f98;
+  }
+  button {
+    background-color: none;
+  }
+  button:active {
+    background-color: none;
+  }
+}
+.titlebar {
+  height: 80px;
+
+}
