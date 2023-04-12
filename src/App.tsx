@@ -76,6 +76,7 @@ function App() {
     let time = workDuration;
     setTime(time);
     handlerInterval(time, [workDuration, restDuration], [setTime, setAction]);
+    isSubmit = false;
   };
 
   if (!timer.length)
