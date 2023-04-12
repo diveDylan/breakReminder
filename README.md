@@ -12,6 +12,7 @@ Set your working minutes and break minutes, start it!
 
 
 Start a working day ~
+
 <img src="./public/working.jpg" width="50%" />
 
 Have a break now ☕️
